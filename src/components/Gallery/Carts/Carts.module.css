@@ -1,0 +1,26 @@
+.cartsGal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+@media screen and (max-width: 1200px) {
+    .cartsGal {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 900px) {
+    .cartsGal {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cartsGal {
+        grid-template-columns: 1fr;
+    }
+}
+.cartsProf {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}

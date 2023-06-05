@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+}
+.header a{
+    text-decoration: none;
+
+}
+.logo img{
+    width: 60px;
+}
+.navbar {
+    display: flex;
+    color: red;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.item {
+    color: white;
+}
+.item .active {
+    color: red;
+    transition: 0.5s;
+}
+
+.auth_and_registration_btns {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.auth_btn {
+    padding: 10px 24px;
+    border-radius: 12px;
+    border: 1px solid #B5FBF9;
+    text-align: center;
+    color: #B5FBF9;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.reg_btn {
+    padding: 10px 24px;
+    text-align: center;
+    margin-left: 20px;
+    background: #B5FBF9;
+    border-radius: 12px;
+    color: #091010;
+
+}
+.auth_panel {
+    display: flex;
+}
+
+.auth_panel img{
+    width: 50px;
+    height: 50px;
+}

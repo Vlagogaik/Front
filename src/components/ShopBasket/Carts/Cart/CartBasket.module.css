@@ -1,0 +1,89 @@
+.immg {
+    width: 25vw;
+    height: 13vw;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.cart {
+    background-color: #212f30;
+    display: flex;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+.content {
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.artist_and_tags {
+
+
+}
+
+.artist {
+    display: flex;
+    align-items: center;
+    background-color: #091010;
+    height: 70px;
+    width: 60%;
+    min-width: 300px;
+    border-radius: 100px;
+    margin: 20px 30px;
+    align-items: center;
+
+}
+.artist_and_delete {
+    display: flex;
+    justify-content: space-between;
+
+}
+.artist_and_delete .delete{
+    margin: 20px;
+}
+.artist_and_delete .delete button{
+    margin-top: 0;
+    height: 40px;
+}
+
+.artist img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px    ;
+}
+
+.artist span {
+    margin-left: 20px;
+    padding-right: 110px;
+}
+
+.tags {
+    display: flex;
+    margin-left: 30px;
+}
+.tag {
+    background-color: #091010;
+    padding: 15px;
+    border-radius: 120px;
+    margin-right: 10px;
+
+}
+
+.name_and_price {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+
+}
+
+.name {
+    font-size: 14px;
+}
+
+.price {
+    color: #61dafb;
+    font-size: 16px;
+}

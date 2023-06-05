@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Exo2';
+  src: url(/src/public/exo.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: Exo2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #091010;
+  color: #fff;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
